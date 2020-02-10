@@ -1,0 +1,36 @@
+{
+  "name": "sjsl",
+  "version": "1.0.0",
+  "description": "sjsl",
+  "main": "index.js",
+  "scripts": {
+    "testx": "mocha 'test/**/*.js'",
+    "test": "mocha test --reporter mochawesome --reporter-options autoOpen=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roxberry/sjsl.git"
+  },
+  "keywords": [
+    "sjsl",
+    "test"
+  ],
+  "author": "Mark Roxberry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roxberry/sjsl/issues"
+  },
+  "homepage": "https://github.com/roxberry/sjsl#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "broken-link-checker": "^0.7.8",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "console.table": "^0.10.0",
+    "mocha": "^7.0.1",
+    "mochawesome": "^4.1.0",
+    "node-linkchecker": "0.0.3",
+    "selenium-drivers": "^2.1.0",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
