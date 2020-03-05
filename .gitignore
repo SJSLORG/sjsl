@@ -1,1 +1,4 @@
 .DS_Store
+node_modules/
+mochawesome-report/
+site/assets/~$Build out Line.pptx

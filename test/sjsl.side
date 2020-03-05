@@ -1,0 +1,70 @@
+{
+  "id": "139875d5-8133-44b4-a98d-4bd01e610c0d",
+  "version": "2.0",
+  "name": "sjsl",
+  "url": "http://www.sjsl.org",
+  "tests": [{
+    "id": "1442d95c-95af-41bf-811a-bea401c52950",
+    "name": "Home",
+    "commands": [{
+      "id": "21061b33-ff52-471b-95ed-2809cc0a7ae0",
+      "comment": "",
+      "command": "open",
+      "target": "/clubsite/?p=19926",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36299e23-316d-490a-b038-92b33f4f15ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1680x1027",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fed53cd8-f489-47cf-8924-2362fde85aa3",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3072ccf-a639-4f33-ba68-dcea95a68fff",
+      "comment": "",
+      "command": "click",
+      "target": "css=#top-nav > li:nth-child(1) > a",
+      "targets": [
+        ["css=#top-nav > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//ul[@id='top-nav']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/clubsite/?p=19926')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa75d5f7-8c80-4ef6-8306-a8b7a69a5270",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Invoices",
+      "targets": [
+        ["linkText=Invoices", "linkText"],
+        ["css=.widget:nth-child(1) > div:nth-child(3) a", "css:finder"],
+        ["xpath=//a[contains(text(),'Invoices')]", "xpath:link"],
+        ["xpath=//div[@id='left']/div/div/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Content/directors/upimg/dir12679/home/sjsl spring 2020 invoices of 1.5.2020.pdf')]", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Invoices')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a80d8cb6-6a52-430f-bfc8-add3c14c6413",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1442d95c-95af-41bf-811a-bea401c52950"]
+  }],
+  "urls": ["http://www.sjsl.org/"],
+  "plugins": []
+}
