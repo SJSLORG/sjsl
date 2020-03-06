@@ -1,8 +1,11 @@
 .content {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.0em;
-    color: rgb(0, 0, 204);
-    padding: 25px;
+    padding: 10px;
+}
+
+.spacer {
+    margin-top: 25px;
 }
 
 .file {
@@ -17,4 +20,9 @@
 .sidebar-box li {
     list-style-type: none;
     margin-bottom: 5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(0, 0, 204);
 }
