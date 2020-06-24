@@ -13,7 +13,7 @@
     height: 750px;
 }
 
-.sidebar-box {
+.sidebar, .sidebar-box {
     font-size: 10pt;
 }
 
