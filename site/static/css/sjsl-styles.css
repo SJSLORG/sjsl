@@ -26,3 +26,20 @@ h1, h2, h3, h4, h5 {
     font-family: 'Open Sans', sans-serif;
     color: rgb(0, 0, 204);
 }
+
+h1#title, h1#title2 {
+    display:block;
+}
+
+@media (min-width : 1025px) {
+    h1#title, h1#title2 {
+        display:block;
+    }
+}
+
+
+@media (max-width : 1024px) {
+    h1#title, h1#title2 {
+        display:none !important;
+    }
+}
