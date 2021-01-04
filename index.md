@@ -1,7 +1,7 @@
 ## Welcome to the South Jersey Soccer League
 
 <div class="content">
-### Spring 2021 Registration Open
+  <h2>Spring 2021 Registration Open</h2>
 
 Register your team today!
 
