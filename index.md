@@ -1,5 +1,6 @@
 ## Welcome to the South Jersey Soccer League
 
+<div class="content">
 ### Spring 2021 Registration Open
 
 Register your team today!
@@ -7,7 +8,7 @@ Register your team today!
 Fill out the online registration [HERE](https://events.gotsport.com/forms/app/Default.aspx?EventID=82174).
 
 View Applied Teams [HERE](https://events.gotsport.com/events/teamlist.aspx?showall=true&eventid=82174)
-
+</div>
 
 <div class="content">
   <h2>Important Dates and Links</h2>
