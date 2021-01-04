@@ -9,6 +9,14 @@ Fill out the online registration [HERE](https://events.gotsport.com/forms/app/De
 
 View Applied Teams [HERE](https://events.gotsport.com/events/teamlist.aspx?showall=true&eventid=82174)
 
+## Current Site Status and Alerts
+
+The SJSL.org site on GotSoccer is currently down.  
+
+We have set up this temporary site in the meantime.  For any technical questions, please contact [Mark Roxberry](mailto: administrator@sjsl.org).
+
+For contacts on the board, our current board is listed [HERE](board.md).
+
 <div class="content">
   <h2>Important Dates and Links</h2>
   <h3>Game Postponement Form - COVID-19</h3>
@@ -81,3 +89,4 @@ View Applied Teams [HERE](https://events.gotsport.com/events/teamlist.aspx?showa
       </tr>
     </tbody>
   </table></div>
+ 
