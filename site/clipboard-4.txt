@@ -1,13 +1,3 @@
-<style>
-.jmc-link:active, .jmc-link:visited {
-  color: darkred;
-}
-
-.jmc-link:hover {
-  color: red;
-}
-
-</style>
 <div class="content">
   <h2>Home Page Highlights</h2><a href="#content-important-links">Important Dates and Links</a> | <a href="#content-match-card">Match Card Quick Reference</a> | <a href="#content-fall-2021-schedule">Fall 2021 Schedule</a> | <a href="#content-lace-up">Lace Up 4 Pediatric Cancer</a> | <a href="#content-miller-cup">2021 Jim Miller Cup</a> | <a href="#content-onboarding">GotSoccer Onboarding Links</a> | </div><hr />
 
@@ -15,7 +5,7 @@
   <h2>2021 Inaugural Jim Miller Cup</h2>
   <img src="http://www.sjsl.org/Content/directors/upimg/dir12679/static/images/jmc-logo-circle-wide.jpg" />
   <p>SJSL is proud to introduce the Inaugural Jim Miller Cup!</p>
-  <h4 style="color:darkred">The <a class="jmc-link" href="https://system.gotsport.com/org_event/events/11293">Jim Miller Cup Schedule</a> is published!</h4>
+  <h4>The <a href="https://system.gotsport.com/org_event/events/11293">Jim Miller Cup Schedule</a> is published!</h4>
   <p>Jim Miller has been a fixture on the SJSL Board since the 1970s and left after the Spring 2020 season. Jim was so dedicated to serving the members, he continued being on the board after he moved from South Jersey to Lancaster County, PA. This cup is to honor his dedication to the clubs, coaches, and players in South Jersey.</p>
   <p>The Jim Miller Cup is open to Boys and Girls teams. Games will be played at Deptford, West Deptford and additional sites as needed.</p>
   <p>Cup information can be found <strong><a href="http://www.sjsl.org/clubsite/?p=24641">HERE</a></strong></p>
