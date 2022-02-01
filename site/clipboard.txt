@@ -1,3 +1,196 @@
-<p>Click <a href="“https://events.gotsport.com/forms/app/Default.aspx?EventID=80954”">HERE</a> to register for the 2020 - 2021 SJ Cup.</p>
-<p>Follow this <a href="“" http:="" www.sjgsl.org="" clubsite="" ?p="20728" ”="">link</a> for more SJ Cup resources!</p>
-<p>Any questions? Contact <a href="“mail" to:="" southjerseycup2018@gmail.com”="">Heather Talarico</a></p>
+<div class="content">
+  <h2>Home Page Highlights</h2><a href="#content-spring-2022">Spring 2022 Season Information</a> | <a href="#content-scholarship">Scholarship 2022 Information</a> | <a href="#content-fall-2021-winners">Fall 2021 Flight Winners</a> | <a href="#content-important-links">Important Dates and Links</a> | <a href="#content-match-card">Match Card Quick Reference</a> | <a href="#content-onboarding">GotSport Onboarding Links</a></div><hr />
+
+<div style="color: #FFFFFF; font: normal 18px arial, sans-serif; background-color: #0066FF; border: #C0C0C0 2px solid; margin: 0 auto; padding: 4px 5px 3px 5px;">
+  <marquee scrolldelay="125">Spring 2022 Starts on March 1, 2022 </marquee></div>
+<div>&nbsp;</div>
+<div align="center" class="content">
+  <h1>Welcome to the<br />
+    South Jersey Soccer League <br />
+    Website</h1></div>
+<div>&nbsp;</div>
+<div style="color: #FFFFFF; font: normal 18px arial, sans-serif; background-color: #ffbd33; border: #C0C0C0 2px solid; margin: 0 auto; padding: 4px 5px 3px 5px;">
+  <marquee scrolldelay="125">Remember to include the players' US Club #s when you create your event rosters!</marquee></div><hr />
+
+<div id="content-spring-2022" class="content">
+  <h2>Spring 2022 Season Information</h2>
+  <p>Spring 2022 season starts on March 6th, 2022</p>
+  <p>View the Flight and Brackets for each Event Age <a target="_blank" href="https://system.gotsport.com/org_event/events/12532/teams?showall=groups">HERE</a></p></div><hr />
+
+<div id="content-scholarship" class="content">
+  <h2>Scholarship 2022 Information</h2>
+  <p>Download the SJSL Scholarship Application <a href="https://docs.google.com/document/d/1rUZ2ZSzOaJhEyhKEKv79KGgJDEV5W-N3/edit?usp=sharing&ouid=110843106033398388771&rtpof=true&sd=true">HERE</a></p>
+  <p>Read about the SJSL Scholarship Program <a href="https://drive.google.com/file/d/1KSNCFWpRW-sbVQRrjyUfC1t_d6F9TXA1/view?usp=drivesdk">HERE</a></p>
+<!--
+<p>Read about the <a href="http://www.sjsl.org/clubsite/?p=23455">2020 Winners</a><p>
+-->
+</div><hr />
+<!--
+<div id="content-miller-cup" class="content"><h2>2021 Inaugural Jim Miller Cup</h2><img src="http://www.sjsl.org/Content/directors/upimg/dir12679/static/images/jmc-logo-circle-wide.jpg" /><p>SJSL is proud to introduce the Inaugural Jim Miller Cup!</p><h4 style="color:darkred">The <a class="jmc-link" href="https://system.gotsport.com/org_event/events/11293">Jim Miller Cup Schedule</a> is published!</h4><p>Jim Miller has been a fixture on the SJSL Board since the 1970s and left after the Spring 2020 season. Jim was so dedicated to serving the members, he continued being on the board after he moved from South Jersey to Lancaster County, PA. This cup is to honor his dedication to the clubs, coaches, and players in South Jersey.</p><p>The Jim Miller Cup is open to Boys and Girls teams. Games will be played at Deptford, West Deptford and additional sites as needed.</p><p>Cup information can be found <strong><a href="http://www.sjsl.org/clubsite/?p=24641">HERE</a></strong></p><p>Registration is $25 per team, team pays the referee fees.</p><p><strong>Register your team <a href="https://system.gotsport.com/event_regs/99c05f7f78">HERE</a></strong></p><p>View <strong><a href="https://system.gotsport.com/org_event/events/11293/teams?showall=clean">Applied Teams</a></strong></p></div><hr />
+-->
+
+<div id="content-fall-2021-winners" class="content">
+  <h2>SJSL Fall 2021 Flight Winners</h2>
+  <h3>U11</h3>
+  <p>SWSA Black Mambas 2011</p>
+  <p>Voorhees Attack 2011</p>
+  <p>Cherry Hill FC Juniors Red 2011</p>
+  <p>Moorestown Black Knights 2011</p>
+  <p>Bordentown FC Renegades 2011</p>
+  <p>Bordentown FC Jaguars 2011</p>
+  <p>Medford Renegades 2011</p>
+  <p>Moorestown Chaos 2011</p>
+  <p>Washington Twp Regulators 2011</p>
+  <p>Pitman Pumas 2011</p>
+  <p>Seneca United Warriors 2011</p>
+  <p>Mount Laurel United Warriors 2011</p>
+  <h3>U12</h3>
+  <p>Cinnaminson Knights 2010</p>
+  <p>Voorhees Warriors 2010</p>
+  <p>Washington Twp Renegades 2010</p>
+  <p>South Harrison Avengers 2010</p>
+  <p>Cohansey Crush 2010</p>
+  <p>Northern Burlington Blast 2010</p>
+  <p>Mainland United Sharks 2010</p>
+  <p>Highland Soccer Raptors 2010</p>
+  <p>Rancocas Valley Union 2010</p>
+  <p>Franklin Twp Soccer Storm 2010</p>
+  <p>Voorhees Thunder 2010</p>
+  <h3>U13</h3>
+  <p>Moorestown Hotspurs 2009</p>
+  <p>Mantua Twp Strikers 2009</p>
+  <p>Marlton Chiefs Orange 2009</p>
+  <p>Monroe Twp United 2009</p>
+  <p>Berlin Soccer Knights 2009</p>
+  <p>Haddon Twp White Hawks 2009</p>
+  <p>Penns Grove Heat 2009</p>
+  <p>Rancocas Valley Rebels 2009</p>
+  <p>Franklin Twp Strikers 2009</p>
+  <h3>U14</h3>
+  <p>Moorestown Rapids 2008</p>
+  <p>Vineland Vikings 2008</p>
+  <p>EHT Eagles 2008</p>
+  <p>Harrison Sharks 2008</p>
+  <p>Berlin Soccer Savages 2008</p>
+  <p>Burlington Twp Galaxy 2008</p>
+  <p>Monroe Twp United Blue 2008</p>
+  <p>Haddonfield Black 2008</p>
+  <h3>U15</h3>
+  <p>Pennsauken Lightning 2007</p>
+  <p>Cherry Hill SC Galaxy 2007</p>
+  <p>TBAA Sting 2008</p>
+  <p>Washington Twp Spartans 2007</p>
+  <p>Mainland United 2007</p>
+  <p>Monroe Twp United 2007</p>
+  <h3>U16</h3>
+  <p>Deptford Raptors 2006</p>
+  <p>Winslow Twp Wolves 2006</p>
+  <h3>U17/18</h3>
+  <p>TBAA Rampage 2005</p>
+  <h3>U18/19</h3>
+  <p>EGSA Wolves 2004</p></div><hr />
+
+<div id="content-match-card" class="content">
+  <h2>Match Card Quick Reference</h2>
+  <p>Common instructionals for GotSport platform changes for Match Cards (formerly known as the Game Day Report or GDR) </p>
+  <ul>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/articles/360061928914-Adding-Player-ID-Number-for-Game-Card-Printing">Set USCLUB ID for the Match Card</a><br />
+      
+      <p>SJSL is a USCLUB Affiliate. Please use USCLUB not USYS (the instructional sets a USYS ID).</p>
+      <p>For each player, there may be a role for USCLUB already available. Set the ID for <strong>Organization</strong> and Team roles.</p></li>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/articles/360052832054-How-to-Print-a-Match-Card">Print your Match Card</a></li>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/sections/4405623792791-Entering-Scores">Enter Match Scores</a></li>
+  </ul>
+  <p>Additional GotSport Resources are <a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/sections/4405623777943-Team-Management">HERE</a>.</p></div><hr />
+
+<div id="content-onboarding" class="content">
+  <h2>GotSport / U.S. Club Onboarding Schedule and Resources</h2>
+  <p>Details for the Phase 1 and Phase 2 training are posted <a href="http://www.sjsl.org/clubsite/?p=19995">here</a>, including live event registrations, pre-recorded classes and onboarding resources.</p></div><hr />
+<!--
+<div id="content-fall-2021-schedule" class="content"><h2>Fall 2021 Schedule Posted!</h2><p>The SJSL Fall 2021 Schedule is available NOW on the new GotSport platform <a href="https://system.gotsport.com/org_event/events/5607" alt="Fall 2021 Schedule Link" target="_blank">HERE</a>. </p><p>Team Brackets based on our divisional ratings can be found <a href="https://system.gotsport.com/org_event/events/5607/teams?showall=groups" alt="Fall 2021 Team Brackets" target="_blank">HERE</a>.</p></div><hr />
+-->
+
+<div id="content-important-links" class="content">
+  <h2>Important Dates and Links</h2>
+  <h3>Game Postponement Form - COVID-19</h3>
+  <p>For any games that need to be postponed due to COVID-19 related issues, please use the postponement request form <a href="https://forms.gle/wLLxR3bBnAJpzNPr5">HERE</a>.</p></div>
+<div id="content-upcoming-events" class="content">
+  <table class="table">
+    <tbody>
+      <tr>
+        <th colspan="2" class="group"><span style="font-weight: bold;">Upcoming Events</span></th>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 3rd</strong></p></td>
+        <td>
+          <p>Spring Registration closed</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 6th</strong></p></td>
+        <td>
+          <p>Executive Board Meeting</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 7th</strong></p></td>
+        <td>
+          <p>Ratings Posted for comments.</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 10th</strong></p></td>
+        <td>
+          <p>Ratings close at 8pm.</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 13th</strong></p></td>
+        <td>
+          <p>Ratings meeting - VIRTUAL starting at 7pm.</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 14th</strong></p></td>
+        <td>
+          <p>Teams may be withdrawn by 8pm without sanction.</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>January 15th</strong></p></td>
+        <td>
+          <p>Invoices Posted</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>February 3rd</strong></p></td>
+        <td>
+          <p>Executive Board Meeting</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>February 10th</strong></p></td>
+        <td>
+          <p>Mandatory Coaches Meeting 7:30 PM Virtual</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>March 3rd</strong></p></td>
+        <td>
+          <p>Executive Board Meeting</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>March 6th</strong></p></td>
+        <td>
+          <p>Spring 2022 Season Starts</p></td>
+      </tr>
+      <tr>
+        <td>
+          <p><strong>June 12th</strong></p></td>
+        <td>
+          <p>Spring 2022 Season Ends</p></td>
+      </tr>
+    </tbody>
+  </table></div>
