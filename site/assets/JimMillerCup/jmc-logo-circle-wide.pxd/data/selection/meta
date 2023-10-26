@@ -4,10 +4,10 @@
 <dict>
 	<key>backingScale</key>
 	<real>1</real>
+	<key>bitmapSelectionFilename</key>
+	<string>bitmapSelection</string>
 	<key>mode</key>
 	<integer>0</integer>
-	<key>shapeSelectionFilename</key>
-	<string>shapeSelection</string>
 	<key>size</key>
 	<data>
 	NC10UHpTVFAQAAAAQI6gAAAAAABAeQAAAAAAAA==
@@ -15,7 +15,7 @@
 	<key>softness</key>
 	<real>0.0</real>
 	<key>timestamp</key>
-	<real>718733971.97309697</real>
+	<real>718734196.53952301</real>
 	<key>transform</key>
 	<array>
 		<real>1</real>
