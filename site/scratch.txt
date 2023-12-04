@@ -1,36 +1,344 @@
+<div style="color: #FFFFFF; font: normal 18px arial, sans-serif; background-color: #0066FF; border: #C0C0C0 2px solid; margin: 0 auto; padding: 4px 5px 3px 5px;">
+  <marquee scrolldelay="125">REGISTRATION IS CLOSED FOR THE FALL 2023 SEASON! </marquee></div>
+<div align="center" class="content">
+  <h1>Welcome to the<br />
+    South Jersey Soccer League <br />
+    Website</h1></div>
+<div style="color: #FFFFFF; font: normal 18px arial, sans-serif; background-color: #ffbd33; border: #C0C0C0 2px solid; margin: 0 auto; padding: 4px 5px 3px 5px;">
+  <marquee scrolldelay="125">Remember to include the players' US Club #s when you create your event rosters! </marquee></div><hr />
+
 <div class="content">
-  <h2>Home Page Highlights</h2><a href="#content-fall-2022">Fall 2022 Season Information</a> | <a href="#content-miller-cup">Jim Miller Cup 2022</a> | <a href="#content-spring-2022">Spring 2022 Season Information</a> | <a href="#content-union-select">SJSL - Union Summer Select Information</a> | <a href="#content-coaching-education">Coaching Education</a> | <a href="#content-scholarship">Scholarship 2022 Information</a> | <a href="#content-important-links">Important Dates and Links</a> | <a href="#content-match-card">Match Card Quick Reference</a> | <a href="#content-onboarding">GotSport Onboarding Links</a></div><hr />
+  <h2>Home Page Highlights</h2><a href="#content-fall-2023">Fall 2023 Season Information</a> | <a href="#content-spring-2023">Spring 2023 Season Information</a> | <a href="#content-union-select">SJSL - Union Summer Select Information</a> | <a href="#content-scholarship">Scholarship 2023 Information</a> | <a href="#content-match-card">Match Card Quick Reference</a> | <a href="#content-league-notices">League Notices</a> | <a href="#content-important-links">Important Dates and Links</a></div>
+<div id="content-fall-2023" class="content">
+  <h2>Fall 2023 Season Information</h2> Fall 2023 season registration is OPEN! Registration will close July 7th, 2023. Register <a href="https://links.sjsl.org/registration">HERE</a>. For new coaches, find Coaching Education courses <a href="https://www.sjsl.org/clubsite/?p=19951">HERE</a>.</div><hr />
 
+<div id="content-spring-2023" class="content">
+  <h2>Spring 2023 Flight Winners</h2>
+  <p>Congratulations to the winners, and good job for all of our teams who competed this season! Trophies can be picked up on July 9th, unless otherwise updated here.</p>
+  <table class="table">
+    <tbody>
+      <tr>
+        <td style="min-width:150px"></td>
+        <td><span style="font-weight: bold;"> U11</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> CHSC Blue Army 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Pittsgrove SC Warriors 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 3</td>
+        <td> Deptford Venom 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 4</td>
+        <td> Marlton SC Chiefs White 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 5</td>
+        <td> Logan SC Force 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 6</td>
+        <td> Gateway SC Stingrays 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 7</td>
+        <td> Delran FC Flash 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 8</td>
+        <td> Cape Express White Caps 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 9</td>
+        <td> Seneca United SC Pride 2012</td>
+      </tr>
+      <tr>
+        <td> Flight 10</td>
+        <td> Bordentown Jaguars 2012/Clayton Clippers 2012 (Co-Champs)</td>
+      </tr>
+      <tr>
+        <td> Flight 11</td>
+        <td> Burlington Twp SC Knighthawks 2012/Franklin Twp SA Enforcers 2013 (Co-Champs)</td>
+      </tr>
+      <tr>
+        <td> Flight 12</td>
+        <td> Highland SC Mustangs 2012</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U12</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> CHFC Avengers 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Winslow Township YSA Winslow Rush 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 3</td>
+        <td> MLU Flash 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 4</td>
+        <td> Egg Harbor SC Eagles Black 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 5</td>
+        <td> SWSA Red Flames 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 6</td>
+        <td> Logan SC Blaze 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 7</td>
+        <td> Northern Burlington SA Hooligans 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 8</td>
+        <td> MLU United Warriors 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 9</td>
+        <td> Medford SC Columbia 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 10</td>
+        <td> Monroe Twp YS United Blue 2011</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U13</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> Haddonfield SC Red 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Washington Twp SC Renegades 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 3</td>
+        <td> Atlantic Utd Premier 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 4</td>
+        <td> Medford SC Mad Dogs White 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 5</td>
+        <td> Northern Burlington SA Blast 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 6</td>
+        <td> Cape Express SC Blue Crush 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 7</td>
+        <td> Mainland United SA Mustangs 2011</td>
+      </tr>
+      <tr>
+        <td> Flight 8</td>
+        <td> Woodstown Soccer Club Woodstown Warriors 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 9A</td>
+        <td> Gateway United Jaguars 2010</td>
+      </tr>
+      <tr>
+        <td> Flight 9B</td>
+        <td> Woodstown SC Wolverines 2010</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U14</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> Cinnaminson Wildcats 2009</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Northern Burlington SA Bulldogs 2009</td>
+      </tr>
+      <tr>
+        <td> Flight 3</td>
+        <td> Marlton Chiefs Orange 2009</td>
+      </tr>
+      <tr>
+        <td> Flight 4</td>
+        <td> Logan Soccer Club Logan Rebels 2009 (NJ)</td>
+      </tr>
+      <tr>
+        <td> Flight 5</td>
+        <td> Washington Twp Gladiators 2009</td>
+      </tr>
+      <tr>
+        <td> Flight 6</td>
+        <td> Cohansey Storm 2009</td>
+      </tr>
+      <tr>
+        <td> Flight 7</td>
+        <td> Tar-Kill SC Blue Devils 2009</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U15</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> Highland SC Galaxy 2008</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Burlington Twp SC Bulls 2008</td>
+      </tr>
+      <tr>
+        <td> Flight 3</td>
+        <td> Medford SC White 2008</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U16</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> Winslow Twp Enforcers 2007</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Washington Twp SC Spartans 2007</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U17</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> Voorhees SA Black Cats 2007</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span style="font-weight: bold;"> U19</span></td>
+      </tr>
+      <tr>
+        <td> Flight 1</td>
+        <td> EGSA Wolves 2004</td>
+      </tr>
+      <tr>
+        <td> Flight 2</td>
+        <td> Winslow SA Wolves 2006</td>
+      </tr>
+    </tbody>
+  </table></div><hr />
+<!--
+<div id="content-scholarship" class="content"><h2>SJSL 2023 Scholarship Winners</h2></div><hr />
+-->
 
+<div id="content-updates" class="content">
+  <h2>SJSL 2023 Annual Meeting and Elections</h2>
+  <h3>Congratulations to all of our election winners!</h3>
+  <ul>
+    <li>President - Gary Rambo</li>
+    <li>Vice President - Mike Bonanno</li>
+<!--
+<li>General Secretary - Joe Arone</li>
+-->
+<!--
+<li>Registrar - Nancy Monte Carlo</li>
+-->
 
+    <li>Treasurer - Andrew Randolph</li>
+<!--
+<li>Information Officer - Mark Roxberry</li>
+-->
 
+    <li>Recording Secretary - Frank Gagliardi</li>
+    <li>Rules Compliance - Jim Dougherty</li>
+    <li>Fall Games Commissioner - Keith Rambo</li>
+    <li>Spring Games Commissioner - Keith Rambo</li>
+    <li>First Trustee - Mike Makofka</li>
+    <li>Second Trustee - Tom DeValerio</li>
+    <li>Third Trustee - Adrian Johnson</li>
+    <li>Fourth Trustee - Tony Pietruszka</li>
+  </ul></div><hr />
 
+<div id="content-match-card" class="content">
+  <h2>Match Card Quick Reference</h2> Common instructionals for GotSport platform changes for Match Cards (formerly known as the Game Day Report or GDR) 
+  <ul>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/articles/360061928914-Adding-Player-ID-Number-for-Game-Card-Printing">Set USCLUB ID for the Match Card</a><br />
+      SJSL is a USCLUB Affiliate. Please use USCLUB not USYS (the instructional sets a USYS ID). For each player, there may be a role for USCLUB already available. Set the ID for <strong>Organization</strong> and Team roles. </li>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/articles/360052832054-How-to-Print-a-Match-Card">Print your Match Card</a></li>
+    <li><a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/sections/4405623792791-Entering-Scores">Enter Match Scores</a></li>
+  </ul> Additional GotSport Resources are <a target="_blank" href="https://gotsport.zendesk.com/hc/en-us/sections/4405623777943-Team-Management">HERE</a>.</div><hr />
 
-<div id="content-fall-2022" class="content">
-  <h2>Fall 2022 Season Information</h2>
-  <h3>Coaches Meeting Slides</h3>
-  <p>The slides, including Rules updates and Virtual Card information are available <a href="https://docs.google.com/presentation/d/e/2PACX-1vSmyeU8dRNsB90HCa56CMTCOWJ1WXxcuh8ACUamS8kMMsg-Eo-YfN3MqujXU9LurA/pub?start=false&loop=false&delayms=3000">HERE</a></p>
-</div>
-<hr />
+<div id="content-league-notices" class="content">
+  <h2>League Notices</h2>
+  <h3>League Communication Policy</h3> League communications to Member clubs are sent using the Communication feature in GotSport. 
+  <ul>
+    <li>For Member related communications, e-mails are sent to Club users with the title of President, Vice-President and Administrator. </li>
+    <li>For Team related communications, e-mails are sent to Team Coaches and Managers on the Team Roster in GotSport AND Club users with the title of President, Vice-President and Administrator.</li>
+  </ul> SJSL does not maintain a database of contacts and is not responsible for the management of user accounts in the GotSport Club. However, please contact administrator@sjsl.org if you need assistance with any GotSport issue. </div><hr />
 
-<div id="content-miller-cup" class="content">
-  <h2>Jim Miller Cup 2022</h2>
-  <p>The Jim Miller Cup is back!</p>
-  <p>The South Jersey Soccer League is proud to bring back the Jim Miller Cup!  Scheduled for 12/3 and 12/4, Open to Boys and Girls Teams in South Jersey.  Register Now!</p>
-
-<p>$50 Registration Fee, Teams pay Referee Fees</p>
-
-<p>First and Second place teams get a medal</p>
-
-<p>Champions get a team CUP</p>
-
- 
-<p>3 games each team</p>
-
-<p>Open to Boys and Girls teams</p>
-
-<p>Venues include Deptford and West Deptford, others as needed.</p>
-<p><a href="https://system.gotsport.com/event_regs/6945272863">REGISTER HERE</a></p>
-<p><a href="https://www.sjsl.org/clubsite/?p=24641">More information HERE</p>
-</div>
-<hr />
+<div id="content-important-links" class="content">
+  <h2>Important Dates and Links</h2>
+  <div id="content-upcoming-events" class="content">
+    <table class="table">
+      <tbody>
+        <tr>
+          <th colspan="2" class="group"><span style="font-weight: bold;">Upcoming Events - 2023</span></th>
+        </tr>
+        <tr>
+          <td><strong>6/1</strong></td>
+          <td> Fall Registration Opens</td>
+        </tr>
+        <tr>
+          <td><strong>6/15</strong></td>
+          <td> General Membership Meeting - Elections</td>
+        </tr>
+        <tr>
+          <td><strong>7/7</strong></td>
+          <td> Fall Registration Closes</td>
+        </tr>
+        <tr>
+          <td><strong>7/11,12</strong></td>
+          <td> Rating Meetings</td>
+        </tr>
+      </tbody>
+      </table></div></div>
