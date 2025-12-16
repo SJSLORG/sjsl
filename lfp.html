@@ -1,23 +1,86 @@
 <html>
   <head>
 <style>
-  iframe {
-  /* Makes the iframe fill the width of its container */
-  width: 100%;
-  
-  /* Removes the default border around the iframe */
-  border: none;
-  
-  /* Optional: Adds a slight border radius to the iframe for a modern look */
-  border-radius: 8px; 
-  
-  /* Optional: Adds a subtle shadow to make it stand out like a card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  /* * 1. GENERAL & TYPOGRAPHY STYLES 
+ * Sets a clean, accessible foundation for the page.
+ */
+body {
+    font-family: 'Arial', sans-serif; /* Use a modern, readable font */
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7; /* Light grey background for contrast */
+    padding: 20px;
+    margin: 0;
 }
 
-/* Optional: To hide the scrollbar of the embedded content if needed */
-iframe::-webkit-scrollbar { 
-  display: none;
+/* Enhances readability of headings */
+h1, h2 {
+    font-family: 'Georgia', serif; /* A contrasting font for titles */
+    color: #004c99; /* Deep blue heading color */
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+    border-bottom: none; /* Keep the main title clean */
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.6em;
+    margin-bottom: 15px;
+}
+
+/* Styles for links */
+a {
+    color: #007bff; /* Standard blue for links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Containers for visual separation */
+.content-section {
+    max-width: 900px;
+    margin: 0 auto; /* Center content */
+    padding: 20px;
+    background-color: #fff; /* White background for main content area */
+    border-radius: 8px; /* Soft rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle elevation */
+}
+
+/* * 2. EMBEDDED IFRAME (CARD VIEW) STYLES 
+ * This is the crucial part for the "Card" UX.
+ */
+
+/* Target all iframes to ensure they are responsive and styled */
+iframe {
+    width: 100%;
+    /* Set a responsive height, you might adjust this number */
+    min-height: 600px; 
+    border: 1px solid #e0e0e0; /* Light border around the embed */
+    border-radius: 8px; /* Matches the main content box */
+    overflow: hidden; /* Important for clean edges */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Very slight shadow */
+}
+
+/* If the Row View iframe is used, ensure it is clearly separated */
+.row-view-container {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+/* Container specifically for the Card View to add a little padding */
+.card-view-container {
+    padding: 20px 0;
 }
 </style>
     
