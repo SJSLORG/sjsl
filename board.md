@@ -1,31 +1,3 @@
 <div class="content">
   <h2>SJSL Executive Board Members</h2>
-  <h3>Gary Rambo - President</h3>
-  <p><a href="mailto:president@sjsl.org">president@sjsl.org </a></p>
-  <h3>Keith Rambo - Vice-President</h3>
-  <p><a href="mailto:vp@sjsl.org">vp@sjsl.org</a></p>
-  <h3>General Secretary</h3>
-  <p>League scheduling<br />
-    <a href="mailto:gensec@sjsl.org">gensec@sjsl.org</a></p>
-  <h3>Tom DiValerio - Treasurer</h3>
-  <p>526 Thomas Ave.<br />
-    Barrington, NJ 08007<br />
-    <a href="mailto:treasurer@sjsl.org">treasurer@sjsl.org</a></p>
-  <h3>Nancy E. Monte Carlo - Registrar</h3>
-  <p><a href="mailto:registrar@sjsl.org">registrar@sjsl.org</a></p>
-  <h3>Jim Dougherty - Recording Secretary</h3>
-  <p><a href="mailto:recsec@sjsl.org">recsec@sjsl.org</a></p>
-  <h3>Matt Kozej - Fall Games Commissioner</h3>
-  <p><a href="mailto:fallgames@sjsl.org">fallgames@sjsl.org</a></p>
-  <h3>Spring Games Commissioner</h3>
-  <p><a href="mailto:springgames@sjsl.org">springgames@sjsl.org</a></p>
-  <h3>Ed Eichen - Rules Compliance Officer</h3>
-  <p><a href="mailto:rco@sjsl.org">rco@sjsl.org</a></p>
-  <h3>Mark Roxberry - Information Officer</h3>
-  <p><a href="mailto:administrator@sjsl.org">administrator@sjsl.org</a></p>
-  <h3>Andrew Randolph - First Trustee</h3>
-  <p><a href="mailto:firsttrustee@sjsl.org">firsttrustee@sjsl.org</a></p>
-  <h3>Joe Arone - Second Trustee</h3>
-  <p><a href="mailto:secondtrustee@sjsl.org">secondtrustee@sjsl.org</a></p>
-  <h3>Third Trustee</h3>
-  <p><a href="mailto:thirdtrustee@sjsl.org">thirdtrustee@sjsl.org</a></p></div>
+</div>
