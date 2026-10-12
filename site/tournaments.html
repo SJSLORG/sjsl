@@ -1,180 +1,172 @@
-<style>
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
+<div id="sjsl-tournaments-2026">
+  <style>
+    #sjsl-tournaments-2026 {
+      --sjsl-card: #fff;
+      --sjsl-text: #15202b;
+      --sjsl-muted: #607080;
+      --sjsl-line: #dfe5ea;
+      --sjsl-accent: #124e78;
+      --sjsl-accent-dark: #0b3552;
+      --sjsl-pill: #eaf2f8;
+      width: 100%;
+      color: var(--sjsl-text);
+      line-height: 1.5;
     }
+    #sjsl-tournaments-2026,
+    #sjsl-tournaments-2026 * { box-sizing: border-box; }
+    #sjsl-tournaments-2026 .sjsl-wrap { width: 100%; padding: 10px 0 36px; }
+    #sjsl-tournaments-2026 .sjsl-intro { margin: 0 0 24px; }
+    #sjsl-tournaments-2026 .sjsl-intro h2 { margin: 0 0 8px; color: var(--sjsl-text); font-size: 32px; line-height: 1.15; letter-spacing: -.02em; }
+    #sjsl-tournaments-2026 .sjsl-lede { margin: 0; color: var(--sjsl-muted); }
+    #sjsl-tournaments-2026 .sjsl-stamp { margin-top: 8px; color: var(--sjsl-muted); font-size: 13px; }
+    #sjsl-tournaments-2026 .sjsl-directory {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin: 18px 0 24px;
+      padding: 12px;
+      border: 1px solid var(--sjsl-line);
+      background: #fff;
+      box-shadow: 0 3px 14px rgba(20,35,50,.05);
+    }
+    #sjsl-tournaments-2026 a.sjsl-jump {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 62px;
+      padding: 8px 10px;
+      border: 1px solid var(--sjsl-line);
+      background: #f8fafb;
+      color: var(--sjsl-accent-dark);
+      font-size: 13px;
+      font-weight: 750;
+      line-height: 1.25;
+      text-decoration: none;
+    }
+    #sjsl-tournaments-2026 a.sjsl-jump:hover,
+    #sjsl-tournaments-2026 a.sjsl-jump:focus { border-color: var(--sjsl-accent); background: var(--sjsl-pill); color: var(--sjsl-accent-dark); }
+    #sjsl-tournaments-2026 .sjsl-jump img { flex: 0 0 44px; width: 44px; height: 44px; border-radius: 7px; background: #fff; object-fit: contain; }
+    #sjsl-tournaments-2026 .sjsl-jump-icon { display: grid; flex: 0 0 44px; width: 44px; height: 44px; place-items: center; border-radius: 7px; background: var(--sjsl-accent-dark); color: #fff; font-size: 22px; }
+    #sjsl-tournaments-2026 .sjsl-jump-text { display: flex; flex-direction: column; gap: 3px; }
+    #sjsl-tournaments-2026 .sjsl-jump-date { color: var(--sjsl-muted); font-size: 11px; font-weight: 650; line-height: 1.25; }
+    #sjsl-tournaments-2026 .sjsl-card {
+      display: grid;
+      grid-template-columns: 210px minmax(0, 1fr) 180px;
+      gap: 24px;
+      align-items: center;
+      margin: 16px 0;
+      padding: 20px;
+      border: 1px solid var(--sjsl-line);
+      background: var(--sjsl-card);
+      box-shadow: 0 3px 14px rgba(20,35,50,.05);
+      scroll-margin-top: 110px;
+    }
+    #sjsl-tournaments-2026 .sjsl-art { display: block; width: 100%; height: 150px; object-fit: contain; border-radius: 10px; background: #fff; }
+    #sjsl-tournaments-2026 .sjsl-placeholder { display: flex; align-items: center; justify-content: center; width: 100%; height: 150px; padding: 18px; border: 2px dashed #bac6d0; border-radius: 10px; background: #f8fafb; color: var(--sjsl-muted); font-size: 13px; font-weight: 700; text-align: center; }
+    #sjsl-tournaments-2026 .sjsl-card h3 { margin: 0 0 5px; color: var(--sjsl-text); font-size: 22px; line-height: 1.2; }
+    #sjsl-tournaments-2026 .sjsl-brand { margin: 4px 0 10px; color: var(--sjsl-accent-dark); font-weight: 700; }
+    #sjsl-tournaments-2026 .sjsl-facts { display: flex; flex-wrap: wrap; gap: 7px; margin: 10px 0; }
+    #sjsl-tournaments-2026 .sjsl-pill { padding: 5px 9px; border-radius: 999px; background: var(--sjsl-pill); font-size: 13px; font-weight: 650; }
+    #sjsl-tournaments-2026 .sjsl-details { margin: 8px 0 0; color: #354350; line-height: 1.55; }
+    #sjsl-tournaments-2026 .sjsl-note { margin: 8px 0 0; color: var(--sjsl-muted); font-size: 13px; }
+    #sjsl-tournaments-2026 .sjsl-weekends { margin: 8px 0 0; padding-left: 18px; line-height: 1.55; }
+    #sjsl-tournaments-2026 .sjsl-actions { display: flex; flex-direction: column; gap: 9px; }
+    #sjsl-tournaments-2026 a.sjsl-btn { display: block; padding: 10px 12px; border: 1px solid var(--sjsl-accent); border-radius: 9px; background: var(--sjsl-accent); color: #fff; font-size: 14px; font-weight: 750; line-height: 1.3; text-align: center; text-decoration: none; }
+    #sjsl-tournaments-2026 a.sjsl-btn:hover,
+    #sjsl-tournaments-2026 a.sjsl-btn:focus { background: var(--sjsl-accent-dark); color: #fff; }
+    #sjsl-tournaments-2026 a.sjsl-btn.sjsl-secondary { background: #fff; color: var(--sjsl-accent); }
+    #sjsl-tournaments-2026 a.sjsl-btn.sjsl-secondary:hover,
+    #sjsl-tournaments-2026 a.sjsl-btn.sjsl-secondary:focus { background: var(--sjsl-pill); color: var(--sjsl-accent-dark); }
+    #sjsl-tournaments-2026 .sjsl-footer { margin-top: 28px; color: var(--sjsl-muted); font-size: 12px; line-height: 1.5; }
+    @media (max-width: 820px) {
+      #sjsl-tournaments-2026 .sjsl-directory { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      #sjsl-tournaments-2026 .sjsl-card { grid-template-columns: 1fr; }
+      #sjsl-tournaments-2026 .sjsl-art,
+      #sjsl-tournaments-2026 .sjsl-placeholder { height: 170px; }
+      #sjsl-tournaments-2026 .sjsl-actions { flex-direction: row; flex-wrap: wrap; }
+      #sjsl-tournaments-2026 a.sjsl-btn { flex: 1 1 160px; }
+    }
+    @media (max-width: 480px) {
+      #sjsl-tournaments-2026 .sjsl-directory { grid-template-columns: 1fr; }
+    }
+  </style>
 
-    .column {
-        float: left;
-        width: 50%;
-    }
-
-    .left {
-        width: 40%;
-    }
-
-    .right {
-        width: 60%;
-    }
-
-    .full {
-        width: 100%;
-    }
-
-    /* .card { margin: 25px; padding: 25px; } */
-    .tournament-image {
-        width: 250px;
-        display: block;
-        margin: auto;
-    }
-
-    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 600px) {
-        .column {
-            width: 100%;
-        }
-    }
-</style>
-<div class="content">
-    <h2>Tournaments</h2>
-    <p> SJSL Member Club sponsored tournaments and other special events.</p>
-    <p> Requests to post events should be directed to <a
-            href="mailto:administrator@sjsl.org">administrator@sjsl.org</a>. </p>
-    <div class="tournament card">
-        <div class="row">
-            <div class="column">
-                <img class="tournament-image"
-                    src="/Content/directors/upimg/dir12679/tournaments/chsc_kick_or_treat.jpeg" />
-            </div>
-            <div class="column">
-                <h2>CHSC Kick-or-Treat Tournament 2022</h2>
-                <h3>October 22nd and 23rd, 2022</h3>
-                <p>Registration Fees: U9 thru U12 $500.00, U8 $375.00</p>
-                <p>U9 thru U12 teams play 3 games (two 25 min. halves) - 1st place trophies and 2nd place medals awarded
-                    to all divisions</p>
-                <p>U8 teams play a festival style to introduce players to the tournament &amp; have fun! 2 games (20
-                    min. halves) No standings or trophies at this level. All U8 players receive a Halloween themed
-                    participation gift.</p>
-                <p>All teams are encouraged to wear a team-themed Halloween Costume while playing games!</p>
-                <p>Prize awarded for best team costume!</p>
-                <p>We are accepting team applications now:</p>
-                <p>For Boy Teams, Saturday, Oct 22nd tournament</p>
-                <p><a href="https://events.gotsport.com/forms/app/default.aspx?eventid=87487">REGISTER HERE</a></p>
-                <p>For Girl Teams, Sunday, Oct 23rd tournament</p>
-                <p><a href="https://events.gotsport.com/forms/app/default.aspx?eventid=87486">REGISTER HERE</a></p>
-                <p>For more information contact:</p> Mike Viola at <a
-                    href="mailto:mikeviola28@gmail.com">mikeviola28@gmail.com</a>.
-                <p>&nbsp;</p>
-            </div>
-        </div>
-    </div>
-    <div class="tournament card">
-        <div class="row">
-            <div class="column">
-                <img class="tournament-image"
-                    src="/Content/directors/upimg/dir12679/tournaments/westdeptford-fall-2022.png" />
-            </div>
-            <div class="column">
-                <h2>West Deptford's 42nd Annual Thanksgiving Tournament</h2>
-                <h3>November 25th, 26th, and 27th, 2022</h3>
-                <p>Friday night – upon request only</p>
-                <p>Our ‘Town’ Tournament attracts teams from all flight levels in many different leagues, which allows
-                    us to group teams in brackets best suited for them.</p>
-                <p>U8 to U17 Boys and Girls playing a minimum of 3 games with Championship games for all 6 and 8 team
-                    brackets. </p>
-                <p>Trophies for 1st place and Runner-ups for all age groups. MVP award for all championship teams. </p>
-                <p><a href="https://system.gotsport.com/event_regs/4c8a3a0b95">REGISTER HERE</a></p>
-                <p>Registration open thru November 11th, but do not delay, registration will close early if our maximum
-                    # of teams is reached.</p>
-                <p>For more information contact: Pete Schultes - Tournament Director at <a
-                        href="mailto:wdtournament@yahoo.com">wdtournament@yahoo.com</a>. </p>
-            </div>
-        </div>
-    </div>
-    <div class="tournament card">
-        <div class="row">
-            <div class="column">
-                <img class="tournament-image"
-                    src="/Content/directors/upimg/dir12679/tournaments/cinnaminson-thanksgiving-2022.png" />
-            </div>
-            <div class="column">
-                <h2>41st Annual Cinnaminson SC Thanksgiving Tournament</h2>
-                <h3>November 25th, 26th, and 27th, 2022</h3>
-                <p>Every year for the last 40 years, we have hosted more than 150 teams from across the tri-state area,
-                    all coming together to enjoy an outstanding weekend of competitive soccer with family and friends.
-                    We will look forward to you joining us as we celebrate our 41st Annual Thanksgiving Tournament</p>
-                <p><a
-                        href="https://r20.rs6.net/tn.jsp?f=001emI4P4bTsv8oNJqMO4yUlBJk60wqklMqKhpzrTna8FCWorPcxs661hHv-e0QU7TLOrv2fmzA7B2GxqIh3lIOp8Wloez3g_2-s-mMEaendpjrSNL2F4I_lT1tYJahJmvUoKk8JD1pOTTFZRG6ygXuSf-Nu07FO_t7mHGhuT6OMFbEYEBano1_Zw==&c=nGdoN9FmybglJF_c04NRwnDAfO3NVp7GfOsxW4tle-Mj7pMo0nAmCg==&ch=ygY_xnJ2i4cq5mmON_qiMAJZyJ9LRlamjy1iQLnI3ihznJhLqrFtsg==">REGISTER
-                        HERE</a></p>
-                <p>Sponsorship opportunities are available. For more information, please visit the Tournament website or
-                    email <a href="mailto:CSCTournament2022@gmail.com">CSCTournament2022@gmail.com</a>. </p>
-            </div>
-        </div>
+  <div class="sjsl-wrap">
+    <div class="sjsl-intro">
+      <h3>Upcoming Soccer Tournaments — Fall 2026</h3>
+      <p>Upcoming events identified from the tournament outreach list, verified against organizer and registration pages.</p>
+      <div class="sjsl-stamp">Verified August 30, 2026</div>
     </div>
 
-    <div class="tournament card">
-        <div class="row">
-            <div class="column">
-                <img class="tournament-image"
-                    src="https://newjerseysurf.com/wp-content/uploads/2022/10/NJ-Surf-Marlton-Thanksgiving-Shootout-2022_Proof-1200x1385.png" />
-            </div>
-            <div class="column">
-                <h2>NJ Surf Marlton Thanksgiving Shootout Tournament 2022</h2>
-                <h3>November 26th, and 27th, 2022</h3>
-                <p>Welcome to the NJ Surf Marlton Thanksgiving Shootout</p>
-                <p>
-                    Finish the Fall season at our Thanksgiving Shootout.
-                    Teams aged U8 – U15 are invited to participate, with competitive levels and brackets ranging from
-                    top flight EDP to mid level South Jersey Soccer League.
-                    Champions and runners up will be crowned at each level.
+    <nav class="sjsl-directory" aria-label="Jump to a tournament">
+      <a class="sjsl-jump" href="#sjsl-tampa"><img src="https://assets.gotsportmedia.com/event-promo/2023/tampa-bay-super-cup-2023/logo.png" alt="" loading="lazy"><span class="sjsl-jump-text"><span>Tampa Bay Super Cup</span><span class="sjsl-jump-date">Oct. 23–25 · Nov. 6–8 · Nov. 13–15</span></span></a>
+      <a class="sjsl-jump" href="#sjsl-kick-or-treat"><img src="https://dt5602vnjxv0c.cloudfront.net/portals/122/images/1_logo%20generic%20for%20webpage%20no%20year.jpg" alt="" loading="lazy"><span class="sjsl-jump-text"><span>CHSC Kick or Treat</span><span class="sjsl-jump-date">Oct. 24–25, 2026</span></span></a>
+      <a class="sjsl-jump" href="#sjsl-musa-fall"><img src="https://system.gotsport.com/system/events/logos/000/059/775/icon/watermarked_img_7635366170384253671.jpg?1790367110" alt="" loading="lazy"><span class="sjsl-jump-text"><span>MUSA Fall Invitational</span><span class="sjsl-jump-date">2026 · Halloween weekend</span></span></a>
+      <a class="sjsl-jump" href="#sjsl-colorado-rush"><img src="https://cdn.sincsports.com/photos/sc/tid/belitecup/banner.png?v=260622221922" alt="" loading="lazy"><span class="sjsl-jump-text"><span>Colorado Rush East Cup</span><span class="sjsl-jump-date">Nov. 6–8, 2026</span></span></a>
+      <a class="sjsl-jump" href="#sjsl-west-deptford"><img src="https://system.gotsport.com/system/events/logos/000/055/795/full/WhatsApp_Image_2026-09-09_at_3.21.13_PM.jpeg?1788981695" alt="" loading="lazy"><span class="sjsl-jump-text"><span>West Deptford Thanksgiving</span><span class="sjsl-jump-date">Nov. 28–29, 2026</span></span></a>
+    </nav>
 
-                    Games will played at Marlton’s Memorial Sports Complex, Cherokee High School and Voorhees Echelon
-                    Soccer Complex, with Turf fields at all locations.
-                    Age groups and competitive brackets for both Girls and Boys.</p>
-                <p>Don't delay in registration....... Use Voucher Code: $100OFF to receive $100 off registration if you register before October 23, 2022.</p>
-                <p>More information <a href="https://newjerseysurf.com/thanksgiving-shootout/">HERE</a></p>
-                <p><a href="https://system.gotsport.com/event_regs/360cac7549">REGISTER HERE</a></p>
-                <p>For more information contact: <a
-                    href="mailto:tournaments@newjerseysurf.com">tournaments@newjerseysurf.com</a>.</p>
-            </div>
-        </div>
-    </div>
+    <section class="sjsl-card" id="sjsl-tampa">
+      <img class="sjsl-art" src="https://assets.gotsportmedia.com/event-promo/2023/tampa-bay-super-cup-2023/logo.png" alt="Tampa Bay Super Cup logo" loading="lazy">
+      <div>
+        <h3>Tampa Bay Super Cup</h3>
+        <div class="sjsl-brand">A Showcase of Soccer Excellence — Yours to Win.</div>
+        <div class="sjsl-facts"><span class="sjsl-pill">Tampa Sportsplex — Tampa, FL</span><span class="sjsl-pill">U8–U19</span><span class="sjsl-pill">Three weekends</span></div>
+        <ul class="sjsl-weekends"><li><strong>Juniors U8–U12:</strong> Oct. 23–25 — $895 U8–U10; $925 U11–U12.</li><li><strong>Senior Boys U13–U19:</strong> Nov. 6–8 — $1,195.</li><li><strong>Senior Girls U13–U19:</strong> Nov. 13–15 — $1,195.</li></ul>
+        <p class="sjsl-details">The organizer promotes 1,200+ teams, 20,000+ players, 150+ scouts, 35+ states and 5+ countries. Referee fees are additional.</p>
+      </div>
+      <div class="sjsl-actions"><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/0e43420569" target="_blank" rel="noopener noreferrer">Register — Juniors</a><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/86575c4984" target="_blank" rel="noopener noreferrer">Register — Boys</a><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/2ecc5fe159" target="_blank" rel="noopener noreferrer">Register — Girls</a><a class="sjsl-btn sjsl-secondary" href="https://www.tampabaysupercup.com/" target="_blank" rel="noopener noreferrer">Event Details</a><a class="sjsl-btn sjsl-secondary" href="#sjsl-tournaments-2026">↑ Back to tournament list</a></div>
+    </section>
 
-    <div class="tournament card">
-        <div class="row">
-            <div class="column">
-                <img class="tournament-image" src="/Content/directors/upimg/dir12679/tournaments/bcsa_logo.png" />
-            </div>
-            <div class="column">
-                <h2>BCSA Turkey Cup 2022</h2>
-                <h3>November 25th, 26th, and 27th, 2022</h3>
-                <p>One-Day tournament<br />
-                    Girls play Saturday 11/26<br />
-                    Boys play Sunday 11/27<br />
-                    (Option to play Friday 11/25)<br />
-                </p>
-                <p>
-                    $475 per Team<br />
-                    3 Games guaranteed<br />
-                    Awards for Champion and Runner-Up in all age groups<br />
-                </p>
-                <p>
-                    Registration link:<br />
-                    <a href="https://system.gotsport.com/event_regs/756e859ab4">HERE</a><br />
-                </p>
-                <p>
-                    Site Link:<br />
-                    <a href="http://www.BurlCoSoccer.com">www.BurlCoSoccer.com</a><br />
-                </p>
-                <p>
-                    Questions email:<br />
-                    <a href="mailto:ChrisUpdike@BurlCoSoccer.com">ChrisUpdike@BurlCoSoccer.com</a><br />
-                </p>
-                </p>
-            </div>
-        </div>
-    </div>
+    <section class="sjsl-card" id="sjsl-kick-or-treat">
+      <img class="sjsl-art" src="https://dt5602vnjxv0c.cloudfront.net/portals/122/images/1_logo%20generic%20for%20webpage%20no%20year.jpg" alt="Cherry Hill Soccer Club Kick or Treat tournament artwork" loading="lazy">
+      <div>
+        <h3>CHSC Kick or Treat Soccer Tournament</h3>
+        <div class="sjsl-brand">Costume fun, team pumpkins, trick-or-treating and scary-good soccer.</div>
+        <div class="sjsl-facts"><span class="sjsl-pill">Boys: Oct. 24, 2026</span><span class="sjsl-pill">Girls: Oct. 25, 2026</span><span class="sjsl-pill">Cherry Hill, NJ</span><span class="sjsl-pill">Travel U8–U12</span></div>
+        <p class="sjsl-details">Games are centered around Cherry Hill West and the Chapel Avenue field complex. U9–U12 teams receive three games; U8 uses a two-game festival format. Halloween activities include team costumes, pumpkin and tent contests, trick-or-treating, food trucks, a DJ, games and face painting.</p>
+        <p class="sjsl-details"><strong>Fees:</strong> U8 $475; U9–U12 $695 per team.</p>
+        <p class="sjsl-note">CHSC currently reports capacity reached and is accepting waitlist registrations while brackets are completed.</p>
+      </div>
+      <div class="sjsl-actions"><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/a32e992610" target="_blank" rel="noopener noreferrer">Register / Waitlist — Boys</a><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/7b9afe5552" target="_blank" rel="noopener noreferrer">Register / Waitlist — Girls</a><a class="sjsl-btn sjsl-secondary" href="https://www.cherryhillsoccer.com/Default.aspx?tabid=305134" target="_blank" rel="noopener noreferrer">Event Details</a><a class="sjsl-btn sjsl-secondary" href="#sjsl-tournaments-2026">↑ Back to tournament list</a></div>
+    </section>
 
+    <section class="sjsl-card" id="sjsl-musa-fall">
+      <img class="sjsl-art" src="https://system.gotsport.com/system/events/logos/000/059/775/icon/watermarked_img_7635366170384253671.jpg?1790367110" alt="2026 MUSA Fall Invitational logo" loading="lazy">
+      <div>
+        <h3>The 2026 MUSA Fall Invitational</h3>
+        <div class="sjsl-brand">An invite-only event with hand-selected teams and one-, two- and three-game divisions.</div>
+        <div class="sjsl-facts"><span class="sjsl-pill">Halloween weekend, 2026</span><span class="sjsl-pill">Boys & Girls U9–U16</span></div>
+        <p class="sjsl-details">Game-time blocks are scheduled so players can enjoy Halloween. See the organizer’s GotSport page for current event details and team availability.</p>
+      </div>
+      <div class="sjsl-actions"><a class="sjsl-btn" href="https://system.gotsport.com/event_regs/f45e7c42de" target="_blank" rel="noopener noreferrer">Register</a><a class="sjsl-btn sjsl-secondary" href="https://system.gotsport.com/org_event/events/59775" target="_blank" rel="noopener noreferrer">Event Details</a><a class="sjsl-btn sjsl-secondary" href="#sjsl-tournaments-2026">↑ Back to tournament list</a></div>
+    </section>
+
+    <section class="sjsl-card" id="sjsl-colorado-rush">
+      <img class="sjsl-art" src="https://cdn.sincsports.com/photos/sc/tid/belitecup/banner.png?v=260622221922" alt="Colorado Rush East Cup banner" loading="lazy">
+      <div>
+        <h3>Colorado Rush East Cup</h3>
+        <div class="sjsl-brand">An incredible weekend of soccer brought to you by Colorado Rush.</div>
+        <div class="sjsl-facts"><span class="sjsl-pill">Nov. 6–8, 2026</span><span class="sjsl-pill">Denver & Aurora, CO</span><span class="sjsl-pill">Boys & Girls U11–U15</span></div>
+        <p class="sjsl-details">Matches at Aurora Sports Park and Fort Logan Soccer Complex. The event advertises competition against teams participating in ECNL, ECNL-RL, EA League, DPL and other leagues, with awards for first- and second-place bracket finishers.</p>
+        <p class="sjsl-details"><strong>Published pricing:</strong> before Sept. 11 — U11–U12 9v9 $700; 11v11 $825. After Sept. 11 — $750 / $875.</p>
+        <p class="sjsl-note">The organizer page contains an apparent stale registration-deadline line (“November 15”) despite the Nov. 6–8 event dates; use the registration portal for current acceptance status.</p>
+      </div>
+      <div class="sjsl-actions"><a class="sjsl-btn" href="https://soccer.sincsports.com/TTApply0.aspx?sub=0&tab=2&tid=BELITECUP" target="_blank" rel="noopener noreferrer">Register</a><a class="sjsl-btn sjsl-secondary" href="#sjsl-tournaments-2026">↑ Back to tournament list</a></div>
+    </section>
+
+    <section class="sjsl-card" id="sjsl-west-deptford">
+      <img class="sjsl-art" src="https://system.gotsport.com/system/events/logos/000/055/795/full/WhatsApp_Image_2026-09-09_at_3.21.13_PM.jpeg?1788981695" alt="West Deptford Thanksgiving Tournament image" loading="lazy">
+      <div>
+        <h3>46th Annual West Deptford Thanksgiving Tournament</h3>
+        <div class="sjsl-brand">A Thanksgiving Soccer Tradition</div>
+        <div class="sjsl-facts"><span class="sjsl-pill">Nov. 28–29, 2026</span><span class="sjsl-pill">West Deptford, NJ</span><span class="sjsl-pill">Boys & Girls youth divisions + new formats</span></div>
+        <p class="sjsl-details">Three games guaranteed for standard tournament divisions. New for 2026: Futures developmental play for 2019–2020 birth years, adult 7v7 competition, Keeper Wars and additional weekend events.</p>
+        <p class="sjsl-details"><strong>Early-bird fees through Sept. 7:</strong> Futures $200; U8–U10 $400; U11–U12 $450; U13–U14 $500; High School and Adult 7v7 $400.</p>
+      </div>
+      <div class="sjsl-actions"><a class="sjsl-btn" href="https://www.wdsoccer.com/Default.aspx?tabid=1332042" target="_blank" rel="noopener noreferrer">Registration / Details</a><a class="sjsl-btn sjsl-secondary" href="#sjsl-tournaments-2026">↑ Back to tournament list</a></div>
+    </section>
+
+    <div class="sjsl-footer">Information was assembled from official club/event pages and their linked registration systems. Tournament details can change; registration portals are the authoritative source for current availability and final fees.</div>
+  </div>
 </div>
